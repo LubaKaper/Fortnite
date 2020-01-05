@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FYf-mP-2ag">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Fortnite Shop-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Unit3_PersonalProject_Fortnite" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="30u-Yk-dHK">
+                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="itemCell" textLabel="rRx-5E-LWO" style="IBUITableViewCellStyleDefault" id="wp0-FU-W9T">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="63.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wp0-FU-W9T" id="77r-mX-9ow">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="63.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rRx-5E-LWO">
+                                                    <rect key="frame" x="20" y="0.0" width="374" height="63.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <attributedString key="attributedText">
+                                                        <fragment content="Title">
+                                                            <attributes>
+                                                                <font key="NSFont" size="24" name="Futura-Bold"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="6vm-rV-mug" kind="modal" id="NSj-MC-WiV"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="30u-Yk-dHK" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="4mp-Yf-UYd"/>
+                            <constraint firstItem="30u-Yk-dHK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="TL4-QO-iOS"/>
+                            <constraint firstItem="30u-Yk-dHK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="k5y-w3-xX5"/>
+                            <constraint firstAttribute="bottom" secondItem="30u-Yk-dHK" secondAttribute="bottom" id="sRZ-cS-7Gn"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Fortnite Shop" largeTitleDisplayMode="always" id="D8X-lG-XqT"/>
+                    <connections>
+                        <outlet property="tableView" destination="30u-Yk-dHK" id="whA-kk-MLs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="117.85714285714285"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="byZ-NU-4Ya">
+            <objects>
+                <viewController id="6vm-rV-mug" customClass="DetailViewController" customModule="Unit3_PersonalProject_Fortnite" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NSP-Og-Iek">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="12A-oK-cmW">
+                                <rect key="frame" x="0.0" y="20" width="414" height="434"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v4b-Hw-R9r">
+                                <rect key="frame" x="20" y="491" width="374" height="46.5"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Name">
+                                        <attributes>
+                                            <font key="NSFont" size="36" name="Futura-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gSz-ls-2m7">
+                                <rect key="frame" x="20" y="626.5" width="148" height="31.5"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Price">
+                                        <attributes>
+                                            <font key="NSFont" size="24" name="Futura-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CTd-67-Sv6">
+                                <rect key="frame" x="20" y="704.5" width="374" height="31.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31.5" id="6Zu-1M-SYX"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Rarity">
+                                        <attributes>
+                                            <font key="NSFont" size="24" name="Futura-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vbucks" translatesAutoresizingMaskIntoConstraints="NO" id="aTq-f3-f4L">
+                                <rect key="frame" x="182" y="619.5" width="50" height="45.5"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="aTq-f3-f4L" firstAttribute="top" secondItem="v4b-Hw-R9r" secondAttribute="bottom" constant="82" id="13B-Y4-6Of"/>
+                            <constraint firstItem="gSz-ls-2m7" firstAttribute="centerY" secondItem="aTq-f3-f4L" secondAttribute="centerY" id="2Xr-Pm-YLa"/>
+                            <constraint firstItem="v4b-Hw-R9r" firstAttribute="trailing" secondItem="CTd-67-Sv6" secondAttribute="trailing" id="6Fl-7w-YGP"/>
+                            <constraint firstItem="T6q-cX-MoF" firstAttribute="trailing" secondItem="aTq-f3-f4L" secondAttribute="trailing" constant="182" id="7nd-TL-3dj"/>
+                            <constraint firstItem="12A-oK-cmW" firstAttribute="leading" secondItem="T6q-cX-MoF" secondAttribute="leading" id="F6n-fy-Ehj"/>
+                            <constraint firstItem="T6q-cX-MoF" firstAttribute="bottom" secondItem="CTd-67-Sv6" secondAttribute="bottom" constant="72" id="NOI-yz-zsH"/>
+                            <constraint firstItem="CTd-67-Sv6" firstAttribute="top" secondItem="aTq-f3-f4L" secondAttribute="bottom" constant="39.5" id="Soc-QN-U1D"/>
+                            <constraint firstItem="v4b-Hw-R9r" firstAttribute="leading" secondItem="T6q-cX-MoF" secondAttribute="leading" constant="20" id="X3f-np-ffZ"/>
+                            <constraint firstItem="12A-oK-cmW" firstAttribute="top" secondItem="T6q-cX-MoF" secondAttribute="top" constant="20" id="XYw-vG-tl9"/>
+                            <constraint firstItem="v4b-Hw-R9r" firstAttribute="leading" secondItem="gSz-ls-2m7" secondAttribute="leading" id="an4-gX-Lf5"/>
+                            <constraint firstItem="aTq-f3-f4L" firstAttribute="centerX" secondItem="CTd-67-Sv6" secondAttribute="centerX" id="bzL-e1-eqR"/>
+                            <constraint firstItem="12A-oK-cmW" firstAttribute="height" secondItem="NSP-Og-Iek" secondAttribute="height" multiplier="0.515439" id="crS-hq-9pK"/>
+                            <constraint firstItem="T6q-cX-MoF" firstAttribute="trailing" secondItem="v4b-Hw-R9r" secondAttribute="trailing" constant="20" id="eOa-hx-Iz8"/>
+                            <constraint firstItem="CTd-67-Sv6" firstAttribute="top" secondItem="gSz-ls-2m7" secondAttribute="bottom" constant="46.5" id="gW5-py-3gW"/>
+                            <constraint firstItem="gSz-ls-2m7" firstAttribute="leading" secondItem="CTd-67-Sv6" secondAttribute="leading" id="hSR-fv-CNC"/>
+                            <constraint firstItem="12A-oK-cmW" firstAttribute="trailing" secondItem="T6q-cX-MoF" secondAttribute="trailing" id="leo-Ic-hHN"/>
+                            <constraint firstItem="v4b-Hw-R9r" firstAttribute="top" secondItem="12A-oK-cmW" secondAttribute="bottom" constant="37" id="uAT-E7-KQS"/>
+                            <constraint firstItem="aTq-f3-f4L" firstAttribute="leading" secondItem="gSz-ls-2m7" secondAttribute="trailing" constant="14" id="wrX-DC-OU1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="T6q-cX-MoF"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="SKO-po-Dvx"/>
+                    <connections>
+                        <outlet property="imageView" destination="12A-oK-cmW" id="d0Q-Bu-JDl"/>
+                        <outlet property="nameLabel" destination="v4b-Hw-R9r" id="gfd-eB-i2Y"/>
+                        <outlet property="priceLabel" destination="gSz-ls-2m7" id="umo-7p-7sw"/>
+                        <outlet property="rarityLabel" destination="CTd-67-Sv6" id="NlU-ST-ViN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hc8-Ah-8xc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1882.608695652174" y="117.85714285714285"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Ewz-rJ-SWu">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="FYf-mP-2ag" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ade-e1-cAD">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="aVJ-7g-G2D"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zAC-Ph-8bU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="117.85714285714285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="vbucks" width="512" height="512"/>
+    </resources>
+</document>
