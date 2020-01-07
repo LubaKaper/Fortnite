@@ -119,6 +119,22 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vbucks" translatesAutoresizingMaskIntoConstraints="NO" id="aTq-f3-f4L">
                                 <rect key="frame" x="182" y="619.5" width="50" height="45.5"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a5P-bY-T8H">
+                                <rect key="frame" x="152" y="769" width="111" height="32"/>
+                                <state key="normal" title="SHOP &gt;&gt;">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="SHOP &gt;&gt;">
+                                            <attributes>
+                                                <font key="NSFont" size="15" name="Futura-Bold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="openURL:" destination="6vm-rV-mug" eventType="touchUpInside" id="ogo-Xy-2Sf"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -126,11 +142,14 @@
                             <constraint firstItem="gSz-ls-2m7" firstAttribute="centerY" secondItem="aTq-f3-f4L" secondAttribute="centerY" id="2Xr-Pm-YLa"/>
                             <constraint firstItem="v4b-Hw-R9r" firstAttribute="trailing" secondItem="CTd-67-Sv6" secondAttribute="trailing" id="6Fl-7w-YGP"/>
                             <constraint firstItem="T6q-cX-MoF" firstAttribute="trailing" secondItem="aTq-f3-f4L" secondAttribute="trailing" constant="182" id="7nd-TL-3dj"/>
+                            <constraint firstItem="a5P-bY-T8H" firstAttribute="leading" secondItem="T6q-cX-MoF" secondAttribute="leading" constant="152" id="EHR-2N-gMQ"/>
                             <constraint firstItem="12A-oK-cmW" firstAttribute="leading" secondItem="T6q-cX-MoF" secondAttribute="leading" id="F6n-fy-Ehj"/>
                             <constraint firstItem="T6q-cX-MoF" firstAttribute="bottom" secondItem="CTd-67-Sv6" secondAttribute="bottom" constant="72" id="NOI-yz-zsH"/>
+                            <constraint firstItem="a5P-bY-T8H" firstAttribute="centerX" secondItem="CTd-67-Sv6" secondAttribute="centerX" id="PtQ-dg-kWK"/>
                             <constraint firstItem="CTd-67-Sv6" firstAttribute="top" secondItem="aTq-f3-f4L" secondAttribute="bottom" constant="39.5" id="Soc-QN-U1D"/>
                             <constraint firstItem="v4b-Hw-R9r" firstAttribute="leading" secondItem="T6q-cX-MoF" secondAttribute="leading" constant="20" id="X3f-np-ffZ"/>
                             <constraint firstItem="12A-oK-cmW" firstAttribute="top" secondItem="T6q-cX-MoF" secondAttribute="top" constant="20" id="XYw-vG-tl9"/>
+                            <constraint firstItem="a5P-bY-T8H" firstAttribute="top" secondItem="CTd-67-Sv6" secondAttribute="bottom" constant="33" id="Z3u-hO-2pj"/>
                             <constraint firstItem="v4b-Hw-R9r" firstAttribute="leading" secondItem="gSz-ls-2m7" secondAttribute="leading" id="an4-gX-Lf5"/>
                             <constraint firstItem="aTq-f3-f4L" firstAttribute="centerX" secondItem="CTd-67-Sv6" secondAttribute="centerX" id="bzL-e1-eqR"/>
                             <constraint firstItem="12A-oK-cmW" firstAttribute="height" secondItem="NSP-Og-Iek" secondAttribute="height" multiplier="0.515439" id="crS-hq-9pK"/>
