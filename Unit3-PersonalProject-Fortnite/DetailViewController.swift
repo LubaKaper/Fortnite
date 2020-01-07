@@ -30,6 +30,7 @@ class DetailViewController: UIViewController {
     }
     
     func updateUI() {
+        //updateTime()
         guard let item = shopItem else {
             fatalError("check prepare for segue")
         }
@@ -53,6 +54,7 @@ class DetailViewController: UIViewController {
             }
         }
     }
+    
     
     
 }
