@@ -13,3 +13,7 @@ add most challenging part of your code here
 ## Screenshot of the app
 
 ![home screen1](Assets/homescreen1.png)
+
+## Gif
+
+![gif](Assets/fortniteShopApp.gif)
