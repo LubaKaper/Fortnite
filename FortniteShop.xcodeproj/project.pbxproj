@@ -182,7 +182,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8DC7EAAF23C13A3D00CA6A6B /* Build configuration list for PBXProject "Unit3-PersonalProject-Fortnite" */;
+			buildConfigurationList = 8DC7EAAF23C13A3D00CA6A6B /* Build configuration list for PBXProject "FortniteShop" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -473,7 +473,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8DC7EAAF23C13A3D00CA6A6B /* Build configuration list for PBXProject "Unit3-PersonalProject-Fortnite" */ = {
+		8DC7EAAF23C13A3D00CA6A6B /* Build configuration list for PBXProject "FortniteShop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8DC7EAD123C13A4100CA6A6B /* Debug */,
