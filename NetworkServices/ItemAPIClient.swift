@@ -20,7 +20,7 @@ struct ItemAPIClient {
         
         var request = URLRequest(url: url)
         request.httpMethod = "GET"
-        request.addValue("6240352d-887a-45ae-b0ea-8388ed5df3d4", forHTTPHeaderField: "TRN-Api-Key")
+        request.addValue(SecretKey.apikey, forHTTPHeaderField: "TRN-Api-Key")
         
         NetworkHelper.shared.performDataTask(with: request) { (result) in
             switch result {

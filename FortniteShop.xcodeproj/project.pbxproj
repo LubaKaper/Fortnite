@@ -20,6 +20,7 @@
 		8DC7EAEA23C2668100CA6A6B /* ImageAPIClient+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC7EAE923C2668100CA6A6B /* ImageAPIClient+Extension.swift */; };
 		8DC7EAEC23C268C300CA6A6B /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC7EAEB23C268C300CA6A6B /* ItemModel.swift */; };
 		8DC7EAEE23C26DCF00CA6A6B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC7EAED23C26DCF00CA6A6B /* DetailViewController.swift */; };
+		8DD3244D23C6305C0065138E /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD3244C23C6305C0065138E /* Secrets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		8DC7EAE923C2668100CA6A6B /* ImageAPIClient+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImageAPIClient+Extension.swift"; sourceTree = "<group>"; };
 		8DC7EAEB23C268C300CA6A6B /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
 		8DC7EAED23C26DCF00CA6A6B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		8DD3244C23C6305C0065138E /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 		8DC7EAAB23C13A3D00CA6A6B = {
 			isa = PBXGroup;
 			children = (
+				8DD3244B23C630280065138E /* Secrets */,
 				8DC7EAE223C265D900CA6A6B /* NetworkServices */,
 				8DC7EAB623C13A3D00CA6A6B /* Unit3-PersonalProject-Fortnite */,
 				8DC7EACD23C13A4100CA6A6B /* Unit3-PersonalProject-FortniteTests */,
@@ -123,6 +126,14 @@
 				8DC7EAEB23C268C300CA6A6B /* ItemModel.swift */,
 			);
 			path = NetworkServices;
+			sourceTree = "<group>";
+		};
+		8DD3244B23C630280065138E /* Secrets */ = {
+			isa = PBXGroup;
+			children = (
+				8DD3244C23C6305C0065138E /* Secrets.swift */,
+			);
+			path = Secrets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DC7EAEE23C26DCF00CA6A6B /* DetailViewController.swift in Sources */,
+				8DD3244D23C6305C0065138E /* Secrets.swift in Sources */,
 				8DC7EAE423C2660900CA6A6B /* NetworkHelper.swift in Sources */,
 				8DC7EABC23C13A3D00CA6A6B /* ViewController.swift in Sources */,
 				8DC7EAEC23C268C300CA6A6B /* ItemModel.swift in Sources */,
