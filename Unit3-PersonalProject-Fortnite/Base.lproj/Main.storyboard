@@ -115,6 +115,8 @@
                                     </fragment>
                                 </attributedString>
                                 <nil key="highlightedColor"/>
+                                <color key="shadowColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="-3" height="-3"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vbucks" translatesAutoresizingMaskIntoConstraints="NO" id="aTq-f3-f4L">
                                 <rect key="frame" x="182" y="619.5" width="50" height="45.5"/>
@@ -135,6 +137,10 @@
                                     <action selector="openURL:" destination="6vm-rV-mug" eventType="touchUpInside" id="ogo-Xy-2Sf"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eEg-qx-97C">
+                                <rect key="frame" x="360" y="36" width="22" height="22"/>
+                                <state key="normal" image="star.fill" catalog="system"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -145,11 +151,13 @@
                             <constraint firstItem="a5P-bY-T8H" firstAttribute="leading" secondItem="T6q-cX-MoF" secondAttribute="leading" constant="152" id="EHR-2N-gMQ"/>
                             <constraint firstItem="12A-oK-cmW" firstAttribute="leading" secondItem="T6q-cX-MoF" secondAttribute="leading" id="F6n-fy-Ehj"/>
                             <constraint firstItem="T6q-cX-MoF" firstAttribute="bottom" secondItem="CTd-67-Sv6" secondAttribute="bottom" constant="72" id="NOI-yz-zsH"/>
+                            <constraint firstItem="eEg-qx-97C" firstAttribute="top" secondItem="T6q-cX-MoF" secondAttribute="top" constant="36" id="OdS-N5-Sa3"/>
                             <constraint firstItem="a5P-bY-T8H" firstAttribute="centerX" secondItem="CTd-67-Sv6" secondAttribute="centerX" id="PtQ-dg-kWK"/>
                             <constraint firstItem="CTd-67-Sv6" firstAttribute="top" secondItem="aTq-f3-f4L" secondAttribute="bottom" constant="39.5" id="Soc-QN-U1D"/>
                             <constraint firstItem="v4b-Hw-R9r" firstAttribute="leading" secondItem="T6q-cX-MoF" secondAttribute="leading" constant="20" id="X3f-np-ffZ"/>
                             <constraint firstItem="12A-oK-cmW" firstAttribute="top" secondItem="T6q-cX-MoF" secondAttribute="top" constant="20" id="XYw-vG-tl9"/>
                             <constraint firstItem="a5P-bY-T8H" firstAttribute="top" secondItem="CTd-67-Sv6" secondAttribute="bottom" constant="33" id="Z3u-hO-2pj"/>
+                            <constraint firstItem="eEg-qx-97C" firstAttribute="leading" secondItem="T6q-cX-MoF" secondAttribute="leading" constant="360" id="a2M-HE-lzZ"/>
                             <constraint firstItem="v4b-Hw-R9r" firstAttribute="leading" secondItem="gSz-ls-2m7" secondAttribute="leading" id="an4-gX-Lf5"/>
                             <constraint firstItem="aTq-f3-f4L" firstAttribute="centerX" secondItem="CTd-67-Sv6" secondAttribute="centerX" id="bzL-e1-eqR"/>
                             <constraint firstItem="12A-oK-cmW" firstAttribute="height" secondItem="NSP-Og-Iek" secondAttribute="height" multiplier="0.515439" id="crS-hq-9pK"/>
@@ -197,6 +205,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="star.fill" catalog="system" width="64" height="58"/>
         <image name="vbucks" width="512" height="512"/>
     </resources>
 </document>

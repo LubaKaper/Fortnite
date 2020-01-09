@@ -80,9 +80,9 @@ class DetailViewController: UIViewController {
     var currentGradient: Int = 0
     
     let colorOne = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1).cgColor
-    let colorTwo = #colorLiteral(red: 0.5405164957, green: 0.001436236314, blue: 0.5435551405, alpha: 1).cgColor
-    let colorThree = #colorLiteral(red: 1, green: 0.3984297812, blue: 1, alpha: 1).cgColor
-    let colorFour = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1).cgColor
+    let colorTwo = #colorLiteral(red: 1, green: 0.1543237567, blue: 0, alpha: 1) .cgColor// #colorLiteral(red: 0.5405164957, green: 0.001436236314, blue: 0.5435551405, alpha: 1).cgColor
+    let colorThree = #colorLiteral(red: 0, green: 1, blue: 0, alpha: 1).cgColor//#colorLiteral(red: 1, green: 0.3984297812, blue: 1, alpha: 1).cgColor
+    let colorFour = #colorLiteral(red: 0, green: 0.789275229, blue: 1, alpha: 1).cgColor//#colorLiteral(red: 1, green: 1, blue: 1, alpha: 1).cgColor
     
     func createGradientView() {
         gradientSet.append([colorOne, colorTwo])
