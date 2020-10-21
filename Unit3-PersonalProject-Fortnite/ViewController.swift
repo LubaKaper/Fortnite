@@ -61,9 +61,10 @@ extension ViewController: UITableViewDataSource {
         
         if indexPath.row % 2 == 0 {
             cell.backgroundColor = .systemBlue
-           // cell.textLabel?.textColor = .white
+            cell.textLabel?.textColor = .black
         } else {
             cell.backgroundColor = .white
+            cell.textLabel?.textColor = .black
         }
         return cell
     }

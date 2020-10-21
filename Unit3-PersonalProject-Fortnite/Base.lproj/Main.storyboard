@@ -78,11 +78,11 @@
                                 <rect key="frame" x="0.0" y="20" width="414" height="434"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v4b-Hw-R9r">
-                                <rect key="frame" x="20" y="491" width="374" height="46.5"/>
+                                <rect key="frame" x="20" y="491" width="374" height="39"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Name">
                                         <attributes>
-                                            <font key="NSFont" size="36" name="Futura-Bold"/>
+                                            <font key="NSFont" size="30" name="Futura-Bold"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -90,7 +90,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gSz-ls-2m7">
-                                <rect key="frame" x="20" y="626.5" width="148" height="31.5"/>
+                                <rect key="frame" x="20" y="619" width="148" height="39"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Price">
                                         <attributes>
@@ -119,7 +119,7 @@
                                 <size key="shadowOffset" width="-3" height="-3"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vbucks" translatesAutoresizingMaskIntoConstraints="NO" id="aTq-f3-f4L">
-                                <rect key="frame" x="182" y="619.5" width="50" height="45.5"/>
+                                <rect key="frame" x="182" y="612" width="50" height="53"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a5P-bY-T8H">
                                 <rect key="frame" x="152" y="769" width="111" height="32"/>
